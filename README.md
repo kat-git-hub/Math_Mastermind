@@ -6,3 +6,5 @@
 [![linter-check](https://github.com/kat-git-hub/python-project-lvl1/actions/workflows/linter-check.yml/badge.svg?event=check_run)](https://github.com/kat-git-hub/python-project-lvl1/actions/workflows/linter-check.yml)
 
 [![asciicast](https://asciinema.org/a/VXGj0wC7OxH6TvL46FF7WAyqH.svg)](https://asciinema.org/a/VXGj0wC7OxH6TvL46FF7WAyqH)
+
+[![asciicast](https://asciinema.org/a/VXGj0wC7OxH6TvL46FF7WAyqH.svg)](https://asciinema.org/a/KGjohLEAWgz5qBZwOX4wHLOJ3)
