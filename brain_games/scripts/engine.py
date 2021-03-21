@@ -1,13 +1,13 @@
-from brain_games.scripts.games.calc import getRightAnswer, getTask
+
 from brain_games import cli
 
 
-def getCheck():
+def getCheck(game):
     name = cli.welcome_user()
-    getTask()
+    print(game.Task)
     count = 0
     while count <= 3:
-        rightAnswer, ask_a_question = getRightAnswer()
+        rightAnswer, ask_a_question = game.getRightAnswer()
         print(ask_a_question)
         usr_answer = input('Your answer: ')
         if str(rightAnswer) == usr_answer:
