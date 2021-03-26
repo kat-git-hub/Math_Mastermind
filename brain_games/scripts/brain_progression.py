@@ -1,9 +1,10 @@
+
 from brain_games.scripts import engine
-from brain_games.scripts.games import even
+from brain_games.scripts.games import progression
 
 
 def main():
-    engine.getCheck(even)
+    engine.getCheck(progression)
 
 
 if __name__ == '__main__':
