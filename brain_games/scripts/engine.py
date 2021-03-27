@@ -4,7 +4,7 @@ from brain_games import cli
 
 def getCheck(game):
     name = cli.welcome_user()
-    print(game.Task)
+    print(game.TASK)
     count = 0
     while count <= 3:
         rightAnswer, ask_a_question = game.getRightAnswer()

@@ -1,10 +1,12 @@
 import random
 
-Task = 'Answer \"yes\" if the number is even, otherwise answer \"no\".'
+TASK = 'Answer \"yes\" if the number is even, otherwise answer \"no\".'
+MIN_NUM = 1
+MAX_NUM = 100
 
 
 def getRightAnswer():
-    generateNum = random.randint(1, 100)
+    generateNum = random.randint(MIN_NUM, MAX_NUM)
     ask_a_question = (f'Question: {generateNum}')
 
     if generateNum % 2 == 0:
@@ -13,10 +15,3 @@ def getRightAnswer():
     else:
         rightAnswer = 'no'
         return rightAnswer, ask_a_question
-
-
-def bool_to_string(value):
-    if value is True:
-        return 'yes'
-    if value is False:
-        return 'no'

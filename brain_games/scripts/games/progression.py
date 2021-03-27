@@ -1,17 +1,20 @@
 import random
 
-Task = 'What number is missing in the progression?'
+TASK = 'What number is missing in the progression?'
+MIN_NUM = 1
+MAX_NUM = 20
+PROGRESSION_LENGTH = 20
 
 
 def getRightAnswer():
-    num1 = random.randint(1, 10)
-    num2 = num1 + 20
+    num1 = random.randint(MIN_NUM, MAX_NUM)
+    num2 = num1 + PROGRESSION_LENGTH
     step = random.randint(2, 4)
-    ap = list(range(num1, num2, step))
-    index = random.randint(0, (len(ap) - 1))
-    rightAnswer = ap[index]
-    question_list = ap
-    question_list[index] = ' .. '
-    question_list = ' '.join(map(str, ap))
-    ask_a_question = (f'Question: {(question_list)}')
+    progression = list(range(num1, num2, step))
+    index = random.randint(0, (len(progression) - 1))
+    rightAnswer = progression[index]
+    question_string = progression
+    question_string[index] = ' .. '
+    question_string = ' '.join(map(str, progression))
+    ask_a_question = (f'Question: {(question_string)}')
     return rightAnswer, ask_a_question
