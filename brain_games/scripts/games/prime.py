@@ -8,7 +8,7 @@ MAX_NUM = 20
 
 def getRightAnswer():
     num = random.randint(MIN_NUM, MAX_NUM)
-    ask_a_question = (f'Question: {num}')
+    ask_a_question = (f'Question:  {num}')
     if num > 1:
         for i in range(2, num):
             if (num % i) == 0:
