@@ -15,7 +15,7 @@ jobs:
         python-version: '3.x'
     - name: Install dependencies
       run: |
-        pip3 install -—user poetry
+        pip3 install poetry
         make install
     - name: Lint with flake8
       run: |
