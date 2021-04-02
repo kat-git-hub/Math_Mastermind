@@ -2,7 +2,7 @@
 
 ----
 
-[![Actions Status](https://github.com/kat-git-hub/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/kat-git-hub/python-project-lvl1/actions)[![Maintainability](https://api.codeclimate.com/v1/badges/7493d85bfc45f83da860/maintainability)](https://codeclimate.com/github/kat-git-hub/python-project-lvl1/maintainability)[![linter-check](https://github.com/kat-git-hub/python-project-lvl1/actions/workflows/linter-check.yml/badge.svg)](https://github.com/kat-git-hub/python-project-lvl1/actions/workflows/linter-check.yml)
+[![Actions Status](https://github.com/kat-git-hub/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/kat-git-hub/python-project-lvl1/actions)      [![Maintainability](https://api.codeclimate.com/v1/badges/7493d85bfc45f83da860/maintainability)](https://codeclimate.com/github/kat-git-hub/python-project-lvl1/maintainability)      [![linter-check](https://github.com/kat-git-hub/python-project-lvl1/actions/workflows/linter-check.yml/badge.svg)](https://github.com/kat-git-hub/python-project-lvl1/actions/workflows/linter-check.yml)
 
 
 
