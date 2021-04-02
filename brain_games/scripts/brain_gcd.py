@@ -1,10 +1,10 @@
 
-from brain_games.scripts import engine
+from brain_games import launch_the_game
 from brain_games.scripts.games import gcd
 
 
 def main():
-    engine.getCheck(gcd)
+    launch_the_game.play_on(gcd)
 
 
 if __name__ == '__main__':

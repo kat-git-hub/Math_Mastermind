@@ -2,16 +2,16 @@
 import operator
 import random
 
-TASK = 'What is the result of the expression?'
-MIN_NUM = 1
-MAX_NUM = 10
+QUIZ_RULES = 'What is the result of the expression?'
+MIN_NUMBER = 1
+MAX_NUMBER = 10
 
 
-def getRightAnswer():
+def get_right_answer():
     operators = [('+', operator.add), ('-', operator.sub), ('*', operator.mul)]
-    num1 = random.randint(MIN_NUM, MAX_NUM)
-    num2 = random.randint(MIN_NUM, MAX_NUM)
-    op, fn = random.choice(operators)
-    rightAnswer = fn(num1, num2)
-    ask_a_question = ("Question: {} {} {}".format(num1, op, num2))
-    return rightAnswer, ask_a_question
+    number_1 = random.randint(MIN_NUMBER, MAX_NUMBER)
+    number_2 = random.randint(MIN_NUMBER, MAX_NUMBER)
+    get_operator, function = random.choice(operators)
+    right_answer = function(number_1, number_2)
+    task = ("{} {} {}".format(number_1, get_operator, number_2))
+    return right_answer, task

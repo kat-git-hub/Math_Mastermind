@@ -1,17 +1,16 @@
 import random
 
-TASK = 'Answer \"yes\" if the number is even, otherwise answer \"no\".'
+QUIZ_RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
 MIN_NUM = 1
 MAX_NUM = 100
 
 
-def getRightAnswer():
-    generateNum = random.randint(MIN_NUM, MAX_NUM)
-    ask_a_question = (f'Question: {generateNum}')
+def get_right_answer():
+    generate_number = random.randint(MIN_NUM, MAX_NUM)
+    task = (f'{generate_number}')
 
-    if generateNum % 2 == 0:
-        rightAnswer = 'yes'
-        return rightAnswer, ask_a_question
+    if generate_number % 2 == 0:
+        right_answer = 'yes'
     else:
-        rightAnswer = 'no'
-        return rightAnswer, ask_a_question
+        right_answer = 'no'
+    return right_answer, task

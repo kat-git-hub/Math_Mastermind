@@ -1,10 +1,10 @@
 
-from brain_games.scripts import engine
+from brain_games import launch_the_game
 from brain_games.scripts.games import prime
 
 
 def main():
-    engine.getCheck(prime)
+    launch_the_game.play_on(prime)
 
 
 if __name__ == '__main__':
