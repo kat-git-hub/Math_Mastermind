@@ -16,6 +16,7 @@ jobs:
     - name: Install dependencies
       run: |
         make install
+        pip3 install —user poetry
     - name: Lint with flake8
       run: |
         make lint
