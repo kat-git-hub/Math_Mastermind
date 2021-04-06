@@ -6,11 +6,11 @@ MIN_NUMBER = 1
 MAX_NUMBER = 20
 
 
-def get_right_answer():
+def game_round():
     number_1 = random.randint(MIN_NUMBER, MAX_NUMBER)
     number_2 = random.randint(MIN_NUMBER, MAX_NUMBER)
     right_answer = gcd(number_1, number_2)
-    task = ("{} {}".format(number_1, number_2))
+    task = "{} {}".format(number_1, number_2)
     return right_answer, task
 
 

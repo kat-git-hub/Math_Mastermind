@@ -1,9 +1,9 @@
-from brain_games import launch_the_game
-from brain_games.scripts.games import even
+from brain_games import entrypoint
+from brain_games.games import even
 
 
 def main():
-    launch_the_game.play_on(even)
+    entrypoint.start(even)
 
 
 if __name__ == '__main__':

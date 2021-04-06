@@ -10,13 +10,13 @@
 
 ----
 
-- Поставьте любым способом [poetry](https://python-poetry.org/docs/#installation)
+- Install [poetry](https://python-poetry.org/docs/#installation)
 
-- Склонируйте проект:
+- Clone the project:
 
   `$ git clone git@github.com:kat-git-hub/python-project-lvl1.git`
 
-- Перейдите в директорию с проектом и выполните:
+- Cd into the directory with the project and run:
 
   `make install`
 
@@ -30,39 +30,39 @@
 
 -----
 
-В проекте представлено пять игр:
+The project has five games:
 
-1. ### <b>Калькулятор</b>
+1. ### <b>Calculator</b>
 
-   Показывается случайное математическое выражение, которое нужно вычислить
+   A random mathematical expression is shown, it needs to be calculated
    `$ brain-calc`
 
-2. ### <b>Проверка на чётность</b> 
+2. ### <b>Checks the even number</b> 
 
-   Показывается случайное число, нужно ответить yes, если число чётное, или no — если нечётное
+   A random number is shown, you need to answer 'yes' if the number is even, or 'no' if it is odd
    `$ brain-even`
 
-3. ### <b>Простое ли число?</b> 
+3. ### <b>Is it a prime number?</b> 
 
-   Случайное число, нужно ответить yes, если число простое, или no — если нет
+   A random number, you need to answer 'yes' if the number is prime, or 'no' if not
    `$ brain-prime`
 
-4. ### <b>НОД</b> 
+4. ### <b>GCD</b> 
 
-   Необходимо найти наибольший общий делитель двух случайных чисел
+   Find the greatest common divisor of two random numbers
    `$ brain-gcd` 
 
-5. ### <b>Арифметическая прогрессия</b> 
+5. ### <b>Arithmetic progression</b> 
 
-   Определение пропущенного числа в ряде арифмиетической прогрессии
+   Find the missing number in Arithmetic Progression
    `$ brain-progression`
 
 
 
-Пользователь должен дать правильный ответ на три вопроса подряд. После успешной игры  выводится:
+The user must give the correct answer to three questions in a row. After a successful game, it will be displayed:
 `Congratulations!`
 
-В случае, если пользователь даст неверный ответ выводится:
+If the user has an incorrect answer, it will be displayed:
 `Let's try again!`
 
 
