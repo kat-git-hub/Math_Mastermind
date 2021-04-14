@@ -1,10 +1,10 @@
 
-from brain_games import entrypoint
+from brain_games import launch
 from brain_games.games import gcd
 
 
 def main():
-    entrypoint.start(gcd)
+    launch.start(gcd)
 
 
 if __name__ == '__main__':

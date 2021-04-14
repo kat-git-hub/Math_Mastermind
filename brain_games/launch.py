@@ -9,8 +9,8 @@ def start(game):
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print(game.QUIZ_RULES)
-    for i in range(ATTEMPTS_NUMBER):
-        right_answer, task = game.game_round()
+    for _ in range(ATTEMPTS_NUMBER):
+        right_answer, task = game.play()
         print(f'Question: {task}')
         answer = prompt.string('Your answer: ')
         if str(right_answer) == answer:

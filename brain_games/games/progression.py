@@ -3,24 +3,26 @@ import random
 QUIZ_RULES = 'What number is missing in the progression?'
 MIN_NUMBER = 1
 MAX_NUMBER = 20
-PROGRESSION_LENGTH = 20
-STEP_MIN = 2
-STEP_MAX = 4
+MIN_STEP = 2
+MAX_STEP = 4
+MIN_LENGTH = 5
+MAX_LENGTH = 5
 
 
-def game_round():
-    min = random.randint(MIN_NUMBER, MAX_NUMBER)
-    length = min + PROGRESSION_LENGTH
-    step = random.randint(STEP_MIN, STEP_MAX)
-    progression = get_progression(min, length, step)
+def play():
+    first_term = random.randint(MIN_NUMBER, MAX_NUMBER)
+    step = random.randint(MIN_STEP, MAX_STEP)
+    progression_length = random.randint(MIN_LENGTH, MAX_LENGTH)
+    progression = get_progression(first_term, progression_length, step)
     index = random.randint(0, (len(progression) - 1))
     right_answer = progression[index]
     task = hide_element(progression, index)
     return right_answer, task
 
 
-def get_progression(min, length, step):
-    progression = list(range(min, length, step))
+def get_progression(first_term, progression_length, step):
+    last_term = first_term + (progression_length - 1) * step
+    progression = list(range(first_term, last_term + 1, step))
     return progression
 
 
