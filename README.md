@@ -1,14 +1,14 @@
-### 🌚 **Hexlet tests and linter status**
+### 🌚 **Code Climat and Linter status**
 
-----
+
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/7493d85bfc45f83da860/maintainability)](https://codeclimate.com/github/kat-git-hub/python-project-lvl1/maintainability)      [![linter-check](https://github.com/kat-git-hub/python-project-lvl1/actions/workflows/linter-check.yml/badge.svg)](https://github.com/kat-git-hub/python-project-lvl1/actions/workflows/linter-check.yml)
 
-
+----
 
 ### 🤔 **Installation**
 
-----
+
 
 - Install [poetry](https://python-poetry.org/docs/#installation)
 
@@ -24,11 +24,11 @@
 
   `make package-install`
 
-
+----
 
 ### 😎 **Running**
 
------
+
 
 The project has five games:
 
@@ -66,10 +66,10 @@ The user must give the correct answer to three questions in a row. After a succe
 If the user has an incorrect answer, it will be displayed:
 `Let's try again!`
 
-
+-----
 
 ### 🤓 **View a demo**
 
----
+
 
 [![asciicast](https://asciinema.org/a/UHKgVUJ6pQOnxrREOfKTbolsp.svg)](https://asciinema.org/a/UHKgVUJ6pQOnxrREOfKTbolsp)
