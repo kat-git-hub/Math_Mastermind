@@ -14,7 +14,7 @@
 
 - Clone the project:
 
-  `$ git clone git@github.com:kat-git-hub/Math_Mastermind.git`
+  `$ git clone git@github.com:kat-git-hub/game_calc.git`
 
 - Cd into the directory with the project and run:
 
